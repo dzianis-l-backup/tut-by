@@ -1,0 +1,19 @@
+{
+  "name": "motusnova-server",
+  "description": "REST CRUD Example Node.js & Mysql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "body-parser": "1.9.0",
+    "chai": "^3.5.0",
+    "express": "4.9.5",
+    "express-myconnection": "*",
+    "express-validator": "^2.6.0",
+    "mocha": "^3.1.2",
+    "mysql": "*",
+    "request": "^2.79.0"
+  }
+}

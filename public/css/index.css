@@ -1,0 +1,79 @@
+.container{
+
+    position:relative;
+    display:inline-block;
+    transform:translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    width:300px;
+    min-height:200px;
+    padding: 20px;
+    border: 1px solid rgba(240,240,240,1);
+}
+.inputData{
+    position:relative;
+    display:inline-block;
+
+}
+input{
+    height:20px;
+    padding:5px;
+    outline:none;
+    border:none;
+    background-color: rgba(192,192,192,0.6);
+}
+body{
+    background-color: rgba(255,255,255,1);
+}
+header{
+    width:100%;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    background-color:rgba(192,192,192,0.6);
+}
+.mainContainer{
+    overflow-y: scroll;
+    float:left;
+    font-family: serif;
+    width:70%;
+    left:0%;
+    position:relative;
+    display:inline-block;
+    height:445px;
+}
+
+
+
+/*
+
+
+
+*/
+
+
+.newsContainer{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 230px;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+}
+.panel{
+    float:right;
+    display: inline-block;
+    position: relative;
+    width:25%;
+    right:0px;
+    height:465px;
+    overflow-y:scroll;
+}
+.dataBlock{
+    display:inline-block;
+    position: relative;
+    width:90%;
+
+}
